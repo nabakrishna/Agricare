@@ -1,11 +1,6 @@
 {
   "diseases": [
     {
-      "organic_treatment": "Application of Trichoderma formulations mixed with decomposed press mud or farm yard manure (FYM).[10]",
-      "chemical_treatment": "Sett treatment with Carbendazim or Benomyl.[4]",
-      "prevention": "Use disease-free planting material from a certified nursery; plant resistant varieties; remove and destroy infected clumps; avoid ratooning of diseased crops; rotate with non-host crops like rice; use heat therapy on setts.[2, 3, 4, 6]"
-    },
-    {
       "plant_name": "Sugarcane",
       "disease": "Whip Smut",
       "symptom": "A long, black, whip-like growth appears at the top of the plant, releasing black powder.",
@@ -346,6 +341,277 @@
       "organic_treatment": "Not specified in the provided data.",
       "chemical_treatment": "Spraying with fungicides such as Wettable sulphur, Chlorothalonil, Difenaconazole, Tebuconazole, or Propiconazole at 60, 90, and 120 days after sowing.[260]",
       "prevention": "Remove and burn infected crop residues; remove self-sown cotton plants during summer; avoid excessive application of nitrogenous fertilizers; adopt correct spacing.[260]"
-    }
+    },
+{
+      "plant_name": "Rice",
+      "disease": "Red Stripe",
+      "symptom": "Orange to reddish-brown stripes appear on leaves, often with a long white halo extending to the tip.",
+      "detailed_symptoms": "Lesions begin as pin-point dark green spots that enlarge into orange or reddish-brown stripes with a whitish halo. The stripes run lengthwise toward the leaf tip. In severe cases, the lesions spread extensively causing a blight appearance, and bacterial masses may be seen in vascular bundles.",
+      "organic_treatment": "Spray fresh cow dung extract (20%) or use Pseudomonas fluorescens as a seed treatment.",
+      "chemical_treatment": "Foliar spray with Copper Oxychloride or antibiotics like Streptomycin sulphate + Tetracycline combination.",
+      "prevention": "Remove infected plant debris; avoid excessive nitrogen fertilizer; ensure proper spacing to reduce humidity."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Leaf Rust (Brown Rust)",
+      "symptom": "Small, circular orange blisters (pustules) appear scattered on the upper surface of leaves.",
+      "detailed_symptoms": "Uredia appear as small, circular orange-brown pustules scattered randomly on the leaf blades. Unlike stripe rust, they are not arranged in rows. As the plant matures, black spores (teliospores) may replace the orange ones. Severe infection causes leaves to dry out and die early.",
+      "organic_treatment": "Foliar spray of neem oil (3%) or fermented buttermilk; use of bio-control agents like Bacillus subtilis.",
+      "chemical_treatment": "Foliar sprays with Propiconazole (Tilt), Tebuconazole (Folicur), or Triadimefon.",
+      "prevention": "Grow resistant varieties; destroy volunteer wheat plants; apply Potash to improve resistance; avoid late sowing."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Red Rot",
+      "symptom": "The upper leaves turn yellow and dry up; splitting the stalk reveals red tissues with white cross-bands.",
+      "detailed_symptoms": "The third or fourth leaf turns yellow and dries from the bottom up. The internal cane tissue becomes reddish with characteristic intermittent white transverse patches (white spots) running the length of the cane. The pith may smell like alcohol.",
+      "organic_treatment": "Sett treatment with Trichoderma viride or Pseudomonas fluorescens; removal of infected stools.",
+      "chemical_treatment": "Sett dipping in Carbendazim (Bavistin) or Thiophanate Methyl for 15 minutes before planting.",
+      "prevention": "Use healthy certified setts; follow a 2-3 year crop rotation with rice or green manure; avoid waterlogging; burn trash from infected fields."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Leaf Scald",
+      "symptom": "White 'pencil lines' run along the leaf veins; leaves look scalded or burnt at the tips.",
+      "detailed_symptoms": "A narrow, white 'pencil line' extends the entire length of the leaf blade. Leaves become etiolated (pale/yellow) and the tips dry out, giving a scalded appearance. Side shoots (lalas) may sprout on mature canes.",
+      "organic_treatment": "Hot water treatment of setts at 50°C for 2 hours.",
+      "chemical_treatment": "Disinfect cutting knives with Lysol or Dettol; no direct chemical cure for standing crop, prevention is key.",
+      "prevention": "Use resistant varieties; sterilize harvesting tools; use disease-free setts from nurseries."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Mosaic Virus",
+      "symptom": "Leaves show a mottled pattern of light green and dark green patches.",
+      "detailed_symptoms": "Young leaves exhibit a mosaic pattern of alternating light green and dark green patches. The plant growth is stunted, and cane yield is reduced.",
+      "organic_treatment": "Remove and destroy infected clumps (roguing); control aphid vectors using neem oil.",
+      "chemical_treatment": "Spray insecticides like Dimethoate or Methyl Demeton to control the aphids that spread the virus.",
+      "prevention": "Use virus-free nursery setts; rogue out infected plants regularly; control grassy weeds."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Pineapple Disease",
+      "symptom": "Setts fail to germinate; cut ends turn black and smell like ripe pineapple.",
+      "detailed_symptoms": "The central soft portion of the sett turns red, then brown-black. Infected internodes develop cavities. The cut stem emits a strong odor of pineapple due to ethyl acetate production.",
+      "organic_treatment": "Dip setts in cow dung slurry or Trichoderma solution before planting.",
+      "chemical_treatment": "Sett treatment with Propiconazole or Carbendazim helps preventing entry through cut ends.",
+      "prevention": "Use setts with at least 3 nodes; ensure proper drainage; avoid deep planting in heavy soils."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Tungro Disease",
+      "symptom": "Plants are stunted and leaves turn yellow or orange-yellow from the tip downwards.",
+      "detailed_symptoms": "Caused by a virus transmitted by green leafhoppers. Plants show severe stunting and reduced tillering. Leaves turn yellow or orange-yellow, and panicles are small, sterile, or not completely exerted.",
+      "organic_treatment": "Use light traps to catch leafhoppers; apply Neem cake in the nursery.",
+      "chemical_treatment": "Spray insecticides like Imidacloprid, Thiamethoxam, or Carbofuran to kill the leafhopper vector.",
+      "prevention": "Plant resistant varieties (e.g., IR 50, ADT 37); adjust planting dates to avoid peak vector population; plough field to destroy stubble."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Bakanae (Foot Rot)",
+      "symptom": "Infected plants grow abnormally tall and thin compared to healthy plants, then die.",
+      "detailed_symptoms": "Seedlings appear pale yellow, thin, and abnormally elongated (tall) due to gibberellin production by the fungus. Plants may develop adventitious roots at nodes and often die before producing grain.",
+      "organic_treatment": "Seed treatment with Trichoderma viride or Pseudomonas fluorescens.",
+      "chemical_treatment": "Seed treatment with Carbendazim (Bavistin) or Thiram for 24 hours before sowing.",
+      "prevention": "Use salt water to separate light/infected seeds; use clean seeds; destroy infected straw."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Sheath Rot",
+      "symptom": "Irregular grey spots with brown margins appear on the flag leaf sheath; panicles may fail to emerge.",
+      "detailed_symptoms": " oblong or irregular spots with grey centers and brown margins on the flag leaf sheath (the one protecting the grain head). In severe cases, the panicle rots inside the sheath or only partially emerges.",
+      "organic_treatment": "Foliar spray of Pseudomonas fluorescens or Neem oil at booting stage.",
+      "chemical_treatment": "Spray Carbendazim, Edifenphos, or Propiconazole at the time of panicle emergence.",
+      "prevention": "Apply Potash at tillering stage; remove infected stubbles; avoid dense planting."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Bacterial Leaf Streak",
+      "symptom": "Fine, translucent, water-soaked streaks appear between leaf veins, turning brown later.",
+      "detailed_symptoms": "Small, water-soaked linear streaks appear between leaf veins. Tiny yellow beads of bacterial ooze may appear on the streaks. Lesions eventually turn brown and dry out.",
+      "organic_treatment": "Spray fresh cow dung extract (20%).",
+      "chemical_treatment": "Spray Copper Oxychloride mixed with Streptomycin sulphate.",
+      "prevention": "Avoid cutting seedling tips before transplanting; use resistant varieties; avoid excessive nitrogen."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Fusarium Head Blight (Head Scab)",
+      "symptom": "Wheat heads turn prematurely white or bleached; grain looks shriveled and pinkish.",
+      "detailed_symptoms": "Spikelets lose their green color and turn straw-colored or bleached. Under humid conditions, pink or orange spore masses (salmon-colored) appear on the glumes. Infected grains are shriveled and chalky white.",
+      "organic_treatment": "Application of bio-control agents like Bacillus subtilis.",
+      "chemical_treatment": "Spray Tebuconazole, Prothioconazole, or Metconazole at the flowering stage.",
+      "prevention": "Rotate with non-cereal crops; bury crop residues; avoid irrigation during flowering."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Spot Blotch",
+      "symptom": "Small, dark brown oval spots appear on leaves, which may join to form large dead patches.",
+      "detailed_symptoms": "Small, dark brown to black oval lesions appear on the leaves. These spots can coalesce, causing large necrotic patches and leaf death, especially after the heading stage.",
+      "organic_treatment": "Seed treatment with Trichoderma harzianum; foliar spray of botanicals.",
+      "chemical_treatment": "Foliar spray of Propiconazole or Hexaconazole.",
+      "prevention": "Timely sowing; use balanced fertilization (NPK); clean cultivation."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Flag Smut",
+      "symptom": "Long, grey-black streaks appear on leaves/stems; plants are stunted and twisted.",
+      "detailed_symptoms": "Long grey to black sub-epidermal streaks run parallel to leaf veins. These rupture to release black powdery spores. Leaves become twisted and split lengthwise (shredding). Plants are often stunted.",
+      "organic_treatment": "Seed treatment with Trichoderma viride.",
+      "chemical_treatment": "Seed treatment with Carboxin (Vitavax) or Tebuconazole (Raxil).",
+      "prevention": "Shallow sowing; crop rotation; use resistant varieties."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Common Scab",
+      "symptom": "Rough, corky, or raised scabs appear on the potato skin.",
+      "detailed_symptoms": "Superficial, raised, or pitted corky lesions appear on the tuber surface. The lesions are brown, rough, and scabby but do not rot the flesh underneath unless secondary infection occurs.",
+      "organic_treatment": "Green manuring before planting; ensure soil is not too dry during tuber formation.",
+      "chemical_treatment": "Soil treatment with PCNB (Pentachloronitrobenzene) or seed treatment with Boric Acid (3%).",
+      "prevention": "Avoid alkaline soils (high pH favors scab); irrigate frequently during tuber initiation; use resistant varieties."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Leaf Roll Virus (PLRV)",
+      "symptom": "Leaves roll upward and become thick, leathery, and brittle.",
+      "detailed_symptoms": "Lower leaves roll upward at the margins and feel leathery or brittle. Plants are stunted and have a pale yellow appearance. Tubers may develop internal net necrosis (brown netting pattern).",
+      "organic_treatment": "Roguing (removal) of infected plants; control aphids.",
+      "chemical_treatment": "Spray Imidacloprid or Thiamethoxam to control aphid vectors that spread the virus.",
+      "prevention": "Use certified virus-free seed tubers; remove volunteer potato plants; monitor aphid populations."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Wart Disease",
+      "symptom": "Cauliflower-like warty growths appear on the tubers and stem base.",
+      "detailed_symptoms": "Tumors or warty outgrowths appear on tubers, stolons, and stem bases. They look like cauliflower—initially white/green, turning black and rotting later. This is a quarantine disease.",
+      "organic_treatment": "Strict quarantine; no effective organic cure once soil is infected.",
+      "chemical_treatment": "Soil sterilization (difficult and expensive); main control is regulatory/quarantine.",
+      "prevention": "Absolute restriction on moving soil/tubers from infected areas; grow immune varieties (e.g., Kufri Jyoti, Kufri Kanchan)."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Dry Rot (Fusarium)",
+      "symptom": "Tubers develop sunken, wrinkled dry patches with white or pink mold.",
+      "detailed_symptoms": "Sunken, brown, wrinkled patches form on the tuber surface. The internal tissue becomes dry, powdery, and brown, often with cavities containing white/pink fungal growth.",
+      "organic_treatment": "Handle tubers carefully to avoid wounds; store in cool, dry conditions.",
+      "chemical_treatment": "Seed tuber treatment with Thiabendazole or Mancozeb before storage or planting.",
+      "prevention": "Minimize bruising during harvest; cure potatoes before storage (allow skins to harden)."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Blackleg",
+      "symptom": "The base of the stem turns inky black and rots; plants wilt and die.",
+      "detailed_symptoms": "Black, slimy rotting starts at the stem base (soil level) and progresses upwards. Plants appear stunted with yellow, stiff upper leaves. Tubers rot with a foul smell.",
+      "organic_treatment": "Remove and destroy infected plants immediately.",
+      "chemical_treatment": "Seed treatment with Streptomycin sulphate or Copper fungicides helps reduce surface bacteria.",
+      "prevention": "Use whole seed tubers (avoid cutting); plant in well-drained soil; avoid harvesting in wet conditions."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Powdery Mildew",
+      "symptom": "White, cottony powder appears on the upper surface of leaves and stems.",
+      "detailed_symptoms": "Greyish-white powdery fungal growth appears on leaves, sheaths, and floral parts. Later, the powder turns grey-brown with small black dots (cleistothecia).",
+      "organic_treatment": "Spray mixture of baking soda and soapy water or cow urine.",
+      "chemical_treatment": "Foliar spray with Wettable Sulphur or Propiconazole (Tilt).",
+      "prevention": "Avoid dense sowing; reduce nitrogen application; use resistant varieties."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Udbatta Disease",
+      "symptom": "The rice panicle turns into a straight, grey-white agarbatti-like structure.",
+      "detailed_symptoms": "The entire panicle becomes cemented into a cylindrical, rod-like structure (resembling an incense stick) covered with white mycelium, which later hardens and turns black.",
+      "organic_treatment": "Hot water seed treatment at 54°C for 10 minutes.",
+      "chemical_treatment": "Seed treatment with Carbendazim or Vitavax.",
+      "prevention": "Use disease-free seeds; remove and burn infected panicles."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Stem Rot",
+      "symptom": "Black lesions appear on the stem near the water line; the stem weakens and lodges (falls over).",
+      "detailed_symptoms": "Small black irregular lesions form on the outer leaf sheath near the water level. The fungus penetrates the stem, causing it to rot and collapse (lodge), leading to unfilled grains.",
+      "organic_treatment": "Drain the field to reduce humidity; balance nitrogen with potash.",
+      "chemical_treatment": "Spray Thophanate-methyl or Carbendazim at tillering stage.",
+      "prevention": "Burn stubble after harvest; allow field to dry between irrigations."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Ratoon Stunting",
+      "symptom": "Crop looks stunted with thin stalks; orange-red discoloration seen inside nodes.",
+      "detailed_symptoms": "Often symptomless externally except for general stunting and poor yield. Splitting the cane reveals orange-red vascular bundles at the nodes (nodal discoloration).",
+      "organic_treatment": "Hot water treatment (50°C for 2 hours) of seed cane.",
+      "chemical_treatment": "Disinfect harvesting tools with Lysol or quaternary ammonium compounds.",
+      "prevention": "Use disease-free nursery material; sterilization of cutting knives is critical."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Mosaic Virus (PVY/PVX)",
+      "symptom": "Leaves show faint yellow mottling or mosaic patterns and may be crinkled.",
+      "detailed_symptoms": "Leaves exhibit mild to severe mottling (light and dark green areas). Leaflets may be rugose (wrinkled) and plant size is reduced. Tubers may be small.",
+      "organic_treatment": "Roguing (pulling out) infected plants; using mineral oil sprays to deter aphids.",
+      "chemical_treatment": "Insecticides like Imidacloprid to control aphid vectors.",
+      "prevention": "Use certified virus-free seed potatoes; control weed hosts."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Glume Blotch",
+      "symptom": "Brown spots appear on the glumes (chaff) and nodes of the wheat head.",
+      "detailed_symptoms": "Small irregular grey-brown spots on the glumes, often with tiny black dots (pycnidia). Nodes on the stem may turn brown and shrivel.",
+      "organic_treatment": "Crop rotation and burying infected residues.",
+      "chemical_treatment": "Foliar application of Chlorothalonil or Propiconazole.",
+      "prevention": "Use clean seed; crop rotation with non-cereal crops."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Smut (Culmicolous)",
+      "symptom": "See 'Whip Smut' (This is the same disease, listed here for alternative naming context if needed).",
+      "detailed_symptoms": "See Whip Smut entry. Note: Sometimes users search by just 'Smut'.",
+      "organic_treatment": "See Whip Smut entry.",
+      "chemical_treatment": "See Whip Smut entry.",
+      "prevention": "See Whip Smut entry."
+    },
+    {
+      "plant_name": "Rice",
+      "disease": "Grain Discoloration",
+      "symptom": "Grains turn dark brown or black; glumes are spotted.",
+      "detailed_symptoms": "Grains develop various colors (black, brown, pink) due to a complex of fungi. The quality and germination rate of the seed are reduced.",
+      "organic_treatment": "Spray Neem oil or Pseudomonas fluorescens at 50% flowering.",
+      "chemical_treatment": "Spray Carbendazim + Mancozeb at heading stage.",
+      "prevention": "Use disease-free seeds; store grains at proper moisture content."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Hill Bunt (Stinking Smut)",
+      "symptom": "Wheat grains are replaced by black powdery balls that smell like rotten fish.",
+      "detailed_symptoms": "Similar to Karnal Bunt but often affects the whole ear. The internal grain mass is black powder. It has a foul fishy odor.",
+      "organic_treatment": "Seed treatment with skimmed milk or bio-agents.",
+      "chemical_treatment": "Seed treatment with Carboxin or Carbendazim.",
+      "prevention": "Use certified seed; grow resistant varieties."
+    },
+    {
+      "plant_name": "Potato",
+      "disease": "Stem Canker (Rhizoctonia)",
+      "symptom": "Brown, sunken cankers on underground stems; 'Black Scurf' on tubers.",
+      "detailed_symptoms": "Reddish-brown sunken lesions (cankers) on underground stems/stolons which can girdle them. Hard black lumps (sclerotia) form on tuber skin (Black Scurf).",
+      "organic_treatment": "Green manuring; incorporating sawdust into soil.",
+      "chemical_treatment": "Seed tuber treatment with Pencycuron or Carboxin.",
+      "prevention": "Shallow planting; use sprout-free seeds; crop rotation."
+    },
+    {
+      "plant_name": "Sugarcane",
+      "disease": "Rust (Common)",
+      "symptom": "Elongated orange or brown spots on leaves that turn dusty.",
+      "detailed_symptoms": "Elongated yellowish spots appear on both leaf surfaces, turning brown to orange-brown. The spots rupture to release powdery rust spores.",
+      "organic_treatment": "Remove lower infected leaves.",
+      "chemical_treatment": "Spray Mancozeb (0.2%) or Propiconazole.",
+      "prevention": "Use resistant varieties (e.g., Co 86032); ensure proper drainage."
+    },
+    {
+      "plant_name": "Wheat",
+      "disease": "Tan Spot",
+      "symptom": "Tan-colored oval spots with a yellow halo on leaves.",
+      "detailed_symptoms": "Small tan-brown spots that expand into oval or lens-shaped lesions with a distinct yellow halo. Often found on lower leaves first.",
+      "organic_treatment": "Stubble management (burning or burying).",
+      "chemical_treatment": "Foliar spray with Propiconazole or Azoxystrobin.",
+      "prevention": "Crop rotation; tillage to bury wheat residue."
+    }    
+    
   ]
 }
