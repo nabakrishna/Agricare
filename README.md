@@ -39,14 +39,18 @@ This project was developed as part of the Integrated M.Tech curriculum in CSE (C
 
 ```bash
 AgriCare/
-├── app.py                 # Main Flask Application (Server)
-├── agricare.db            # SQLite Database (Auto-generated)
-├── version_details.json   # Project Metadata
-├── requirements.txt       # Python Dependencies
-├── seed_database.py       # Resets and populates the database.
-├── style.css              # Styling for Chat Interface
-├── script.js              # Frontend Logic & API Calls
-└── index.html             # Main Chatbot Interface
+├── .gitignore                 # Specifies files for Git to ignore
+├── LICENSE                    # MIT License details
+├── README.md                  # Project documentation
+├── agricare.db                # SQLite Database (Auto-generated)
+├── app.py                     # Main Flask Application (Server)
+├── index.html                 # Main Chatbot Interface (Frontend)
+├── plant_diseases_data.json   # Backup/Source data for diseases
+├── requirement.txt            # Python Dependencies list
+├── script.js                  # Frontend Logic & API Calls
+├── seed_database.py           # Script to reset/populate the database
+├── styles.css                 # Styling for the chat interface
+└── version_details.json       # Project Metadata and Version info
 ```
 
 ## 🛠 Installation & Setup
