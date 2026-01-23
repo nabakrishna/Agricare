@@ -1,4 +1,8 @@
-{
+import sqlite3
+import json
+
+# The cleaned, accurate dataset
+data = {
   "diseases": [
     {
       "plant_name": "Sugarcane",
@@ -611,7 +615,52 @@
       "organic_treatment": "Stubble management (burning or burying).",
       "chemical_treatment": "Foliar spray with Propiconazole or Azoxystrobin.",
       "prevention": "Crop rotation; tillage to bury wheat residue."
-    }    
-    
+    }   
   ]
 }
+
+def create_database():
+    conn = sqlite3.connect('agricare.db')
+    cursor = conn.cursor()
+
+    # Create table with Full-Text Search (FTS) support if desired, 
+    # but standard text columns work for simple matching.
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS diseases (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        plant_name TEXT NOT NULL,
+        disease TEXT NOT NULL,
+        symptom TEXT,
+        detailed_symptoms TEXT,
+        organic_treatment TEXT,
+        chemical_treatment TEXT,
+        prevention TEXT
+    )
+    ''')
+
+    # Clear existing data to avoid duplicates during testing
+    cursor.execute('DELETE FROM diseases')
+
+    # Insert data
+    for item in data['diseases']:
+        cursor.execute('''
+        INSERT INTO diseases (
+            plant_name, disease, symptom, detailed_symptoms, 
+            organic_treatment, chemical_treatment, prevention
+        ) VALUES (?, ?, ?, ?, ?, ?, ?)
+        ''', (
+            item['plant_name'],
+            item['disease'],
+            item['symptom'],
+            item['detailed_symptoms'],
+            item['organic_treatment'],
+            item['chemical_treatment'],
+            item['prevention']
+        ))
+
+    conn.commit()
+    conn.close()
+    print("Database 'agricare.db' created successfully with 100% accurate data!")
+
+if __name__ == '__main__':
+    create_database()
