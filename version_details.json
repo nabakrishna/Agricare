@@ -1,0 +1,54 @@
+{
+  "project_name": "AgriCare Assistant",
+  "version": "1.2.0",
+  "build_date": "2026-01-24",
+  "status": "Beta",
+  "author": {
+    "name": "Naba Krishna Hazarika",
+    "registration_number": "24MIP10020",
+    "role": "Lead Developer",
+    "institution": "VIT Bhopal"
+  },
+  "description": "AI-powered agricultural assistant for plant disease detection and remedy recommendation using fuzzy logic and context-aware session memory.",
+  "tech_stack": {
+    "backend": "Python (Flask)",
+    "frontend": "HTML, CSS, JavaScript (Vanilla)",
+    "database": "SQLite",
+    "algorithms": ["RapidFuzz (Fuzzy Logic)", "Levenshtein Distance", "Token Set Ratio"]
+  },
+  "features": [
+    "Plant & Symptom Detection",
+    "Context-Aware Chat Memory (SessionStorage)",
+    "Automatic Report Saving (SQLite)",
+    "Fuzzy Logic Matching (Error Tolerance)",
+    "Organic & Chemical Treatment Recommendations"
+  ],
+  "changelog": [
+    {
+      "version": "1.2.0",
+      "date": "2026-01-24",
+      "changes": [
+        "Implemented 'Token Set Ratio' for smarter symptom matching (e.g., 'Red spot' matches 'Brown spot').",
+        "Added context memory to handle multi-turn conversations (Plant -> Symptom -> Diagnosis).",
+        "Fixed '500 Internal Server Error' by adding automatic table creation on startup.",
+        "Integrated 'Save Report' feature to log all diagnoses to the database."
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-01-23",
+      "changes": [
+        "Added SQLite database integration.",
+        "Implemented basic greetings and plant detection logic."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-01-14",
+      "changes": [
+        "Initial release.",
+        "Basic Flask server setup."
+      ]
+    }
+  ]
+}
