@@ -132,12 +132,10 @@ http://127.0.0.1:5000
 
 ## 👨‍💻 Author
 
-* **Naba Krishna Hazarika** — Lead Developer
-* **ID:** 24MIP10020
-* **Institution:** VIT Bhopal University
+* **Naba Krishna Hazarika**
+* **ID:** 24MIP1***0
 * **Department:** Integrated M.Tech (CSE - Computational and Data Science)
 
-**Built with ❤️ for the farming community.**
 
 
 
