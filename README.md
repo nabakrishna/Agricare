@@ -9,7 +9,6 @@
 
 **AgriCare** is an intelligent agricultural assistant designed to bridge the gap between farmers and expert agricultural knowledge. Unlike standard search engines, AgriCare uses **Context-Aware Logic** and **Fuzzy String Matching** to understand imperfect user descriptions (e.g., "red spot" instead of "Brown Spot Disease") and provides immediate organic and chemical remedies.
 
-This project was developed as part of the Integrated M.Tech curriculum in CSE (Computational and Data Science) at **VIT Bhopal**.
 
 ---
 
