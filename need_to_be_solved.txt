@@ -1,0 +1,37 @@
+
+
+
+1.speling mistake--fuzzleword, in js code
+2.grettings--js 
+3.data-find more data from sources(kaggle)
+4.error handling--exception handling in app.py and script.js
+5.accuracy-depend on the data and excution code
+6.
+.
+.
+.
+ . image recognization--......
+ . compatability--server compatability
+ . time complex--flask server ,backend
+ . 
+
+
+.
+. application process--apk
+. upgrade with new version--version 2.0.0
+
+
+
+
+
+/Your_Project_Folder
+│
+├── app.py                <-- PASTE THE NEW CODE HERE
+├── seed_database.py      <-- Keep this here
+├── agricare.db           <-- Keep this here (Database stays outside)
+├── agricare.log          <-- (This will be created automatically)
+│
+└── static/               <-- CREATE THIS FOLDER
+    ├── index.html        <-- Move here
+    ├── styles.css        <-- Move here
+    └── script.js         <-- Move here
