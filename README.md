@@ -132,7 +132,6 @@ http://127.0.0.1:5000
 ## 👨‍💻 Author
 
 * **Naba Krishna Hazarika**
-* **ID:** 24MIP1***0
 * **Department:** Integrated M.Tech (CSE - Computational and Data Science)
 
 
