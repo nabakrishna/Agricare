@@ -4,3 +4,4 @@ env
 *.env
 
 seed_database.py
+agricare_core_schema.sql
