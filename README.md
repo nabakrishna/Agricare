@@ -49,6 +49,7 @@ AgriCare/
 ├── script.js                  # Frontend Logic & API Calls
 ├── seed_database.py           # Script to reset/populate the database
 ├── styles.css                 # Styling for the chat interface
+├── agricare_core_schema.sql   # For handling both JSON and Geospatial data.
 └── version_details.json       # Project Metadata and Version info
 ```
 
