@@ -129,6 +129,7 @@ http://127.0.0.1:5000
 * **Image Recognition** — Integrate TensorFlow/CNN for leaf photo uploads.
 * **Voice Support** — Add Speech-to-Text for farmer accessibility.
 * **Local Dialect Support** — Hindi/Regional languages via Google Translate API.
+* **Minimal Conversation**
 
 ## 👨‍💻 Author
 
