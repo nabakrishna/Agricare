@@ -2,25 +2,7 @@ CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
     username VARCHAR(100) NOT NULL,
     email VARCHAR(255) UNIQUE,
-    farm_region VARCHAR(100),
-    account_status VARCHAR(20) DEFAULT 'active',
-    last_interaction_at TIMESTAMP,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE farm_assets (
-    asset_id SERIAL PRIMARY KEY,
-    user_id INT REFERENCES users(user_id) ON DELETE CASCADE
-    hectares_size DECIMAL(10,2)
-);
-
-CREATE TABLE query_logs (
-    query_id SERIAL PRIMARY KEY,
-    user_id INT REFERENCES users(user_id),
-    raw_user_query TEXT NOT NULL,
-    ai_generated_result JSONB,
-    category_tag VARCHAR(50),
-    is_emergency BOOLEAN DEFAULT FALSE,
+   
     response_time_ms INT,
     user_rating INT CHECK (user_rating BETWEEN 1 AND 5),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
