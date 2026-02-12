@@ -4,5 +4,4 @@ env
 *.env
 
 seed_database.py
-agricare_core_schema.sql
-admin.ts
+version_details.json #for now 
