@@ -10,11 +10,7 @@ CREATE TABLE users (
 
 CREATE TABLE farm_assets (
     asset_id SERIAL PRIMARY KEY,
-    user_id INT REFERENCES users(user_id) ON DELETE CASCADE,
-    crop_type VARCHAR(100),
-    soil_composition JSONB,
-    latitude DECIMAL(9,6),
-    longitude DECIMAL(9,6),
+    user_id INT REFERENCES users(user_id) ON DELETE CASCADE
     hectares_size DECIMAL(10,2)
 );
 
