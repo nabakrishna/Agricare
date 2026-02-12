@@ -6,13 +6,7 @@ CREATE TABLE users (
     response_time_ms INT,
     user_rating INT CHECK (user_rating BETWEEN 1 AND 5),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE system_events (
-    event_id SERIAL PRIMARY KEY,
-    severity VARCHAR(10),
-    component_name VARCHAR(100),
-    error_message TEXT,
+)
     trace_id UUID,
     occured_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
