@@ -1,6 +1,6 @@
 /**
  * AgriCare Assistant - Frontend Logic
- * Version: 2.0 (High Precision)
+ * Version: 2.0 (High Precision) will be more
  */
 
 // DOM Elements
@@ -180,6 +180,7 @@ function handleImageUpload() {
 userInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') handleSubmit();
 });
+
 
 
 
