@@ -60,6 +60,7 @@ def analyze_symptoms():
                 "is_casual": True,
                 "message": "I didn't understand that. Please use real words."
             })
+            
 
         # --- 2. GREETING CHECK (FIXED) ---
         greeting_match = process.extractOne(
@@ -181,3 +182,4 @@ if __name__ == '__main__':
 
     app.run(debug=True, port=5000)
     
+
