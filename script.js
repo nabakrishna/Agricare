@@ -1,6 +1,6 @@
 /**
  * AgriCare Assistant - Frontend Logic
- * Version: 2.0 (High Precision) will be more
+ * Version: 2.0 (High Precision)
  */
 
 // DOM Elements
@@ -160,21 +160,71 @@ async function handleSubmit() {
 /**
  * Future: Handle Image Uploads
  */
-function handleImageUpload() {
+// function handleImageUpload() {
+//     const file = imageUpload.files[0];
+//     if (!file) {
+//         alert('Please select an image first');
+//         return;
+//     }
+    
+//     addMessage(`<i class="fas fa-image"></i> Analyzing photo: <strong>${file.name}</strong>`, true);
+//     const typingElement = showTyping();
+    
+//     setTimeout(() => {
+//         chatbox.removeChild(typingElement);
+//         addMessage("Visual diagnosis is being optimized. For now, please describe the symptoms (e.g., 'Rice with brown spots').");
+//     }, 2000);
+// }
+
+//new upadted img handler code
+
+async function handleImageUpload() {
     const file = imageUpload.files[0];
     if (!file) {
         alert('Please select an image first');
         return;
     }
     
+    // 1. Show that analysis has started
     addMessage(`<i class="fas fa-image"></i> Analyzing photo: <strong>${file.name}</strong>`, true);
     const typingElement = showTyping();
     
-    setTimeout(() => {
+    // 2. Prepare file data for the Python server
+    const formData = new FormData();
+    formData.append('image', file);
+
+    try {
+        // 3. Send file to your Python Backend
+        const response = await fetch('http://localhost:5000/api/analyze-image', {
+            method: 'POST',
+            body: formData
+        });
+
+        const data = await response.json();
+        
+        // 4. Remove typing indicator
         chatbox.removeChild(typingElement);
-        addMessage("Visual diagnosis is being optimized. For now, please describe the symptoms (e.g., 'Rice with brown spots').");
-    }, 2000);
+
+        // 5. Display the result from Python
+        if (data.error) {
+            addMessage(`Error: ${data.error}`);
+        } else {
+            addMessage(data.message);
+            
+            // OPTIONAL: Store the token for follow-up questions
+            if (data.access_token) {
+                console.log("Token:", data.access_token);
+            }
+        }
+    } catch (error) {
+        chatbox.removeChild(typingElement);
+        addMessage("Sorry, I couldn't connect to the analysis server.");
+        console.error(error);
+    }
 }
+
+
+
 
 // Event Listeners
 userInput.addEventListener('keypress', (e) => {
@@ -184,3 +234,47 @@ userInput.addEventListener('keypress', (e) => {
 
 
 
+
+
+//trigger when user send first input
+document.addEventListener('DOMContentLoaded', function() {
+    const chatWelcome = document.querySelector('.chat-welcome');
+    const chatMessages = document.querySelector('.chat-messages');
+    let hasMessages = false;
+    
+    function hideWelcomeOnFirstMessage() {
+        // Count only actual .message elements
+        const messageCount = chatMessages.querySelectorAll('.message').length;
+        if (messageCount > 0 && !hasMessages) {
+            hasMessages = true;
+            // HIDE COMPLETELY instead of minimizing
+            chatWelcome.style.display = 'none';
+            // Or use class for CSS animation: chatWelcome.classList.add('welcome-hidden');
+        }
+    }
+    
+    // Watch for new messages only
+    const observer = new MutationObserver(function(mutations) {
+        let hasNewMessage = false;
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList') {
+                mutation.addedNodes.forEach(function(node) {
+                    if (node.nodeType === 1 && (node.classList?.contains('message') || node.querySelector?.('.message'))) {
+                        hasNewMessage = true;
+                    }
+                });
+            }
+        });
+        if (hasNewMessage) {
+            hideWelcomeOnFirstMessage();
+        }
+    });
+    
+    observer.observe(chatMessages, { childList: true, subtree: true });
+    
+    // Trigger on send button too
+    const sendBtn = document.querySelector('.send-btn');
+    if (sendBtn) {
+        sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
+    }
+});
