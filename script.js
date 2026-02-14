@@ -32,6 +32,7 @@ function addMessage(content, isUser = false) {
     chatbox.scrollTop = chatbox.scrollHeight;
 }
 
+
 /**
  * Transforms the raw JSON response from Flask into a clean, 
  * readable diagnostic report for the farmer.
@@ -278,3 +279,4 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
