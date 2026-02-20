@@ -30,6 +30,7 @@ GREETING_RESPONSES = {
     "okay": "Okay! What's next?"
 }
 
+
 def get_db_connection():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -179,7 +180,7 @@ def analyze_symptoms():
             conn.close()
 
 if __name__ == '__main__':
-
     app.run(debug=True, port=5000)
     
+
 
