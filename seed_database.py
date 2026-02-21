@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-# The cleaned, accurate dataset
+# The cleaned, accurate dataset and it has more to update
 data = {
   "diseases": [
     {
@@ -663,4 +663,5 @@ def create_database():
     print("Database 'agricare.db' created successfully with 100% accurate data!")
 
 if __name__ == '__main__':
+
     create_database()
