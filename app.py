@@ -29,7 +29,8 @@ GREETING_RESPONSES = {
     "ok": "Got it. Anything else?",
     "okay": "Okay! What's next?"
 }
-
+#also have to add mmore restriction word
+#def restricted_word():
 
 def get_db_connection():
     conn = sqlite3.connect(DB_PATH)
@@ -182,5 +183,6 @@ def analyze_symptoms():
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
     
+
 
 
