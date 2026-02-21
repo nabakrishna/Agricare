@@ -1,4 +1,3 @@
-
   :root {
     --primary: #2e7d32;
     --secondary: #81c784;
@@ -322,4 +321,5 @@ input[type="text"]:focus {
 }
 .text-success { color: #2e7d32; }
 .text-primary { color: #1565c0; }
+
 .text-warning { color: #f57c00; }
