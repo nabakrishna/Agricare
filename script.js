@@ -159,25 +159,6 @@ async function handleSubmit() {
     }
 }
 
-/**
- * Future: Handle Image Uploads
- */
-// function handleImageUpload() {
-//     const file = imageUpload.files[0];
-//     if (!file) {
-//         alert('Please select an image first');
-//         return;
-//     }
-    
-//     addMessage(`<i class="fas fa-image"></i> Analyzing photo: <strong>${file.name}</strong>`, true);
-//     const typingElement = showTyping();
-    
-//     setTimeout(() => {
-//         chatbox.removeChild(typingElement);
-//         addMessage("Visual diagnosis is being optimized. For now, please describe the symptoms (e.g., 'Rice with brown spots').");
-//     }, 2000);
-// }
-
 //new upadted img handler code
 
 async function handleImageUpload() {
@@ -280,5 +261,6 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
