@@ -159,7 +159,7 @@ async function handleSubmit() {
     }
 }
 
-//new upadted img handler code
+//new upadted img handler code not added the preview
 
 async function handleImageUpload() {
     const file = imageUpload.files[0];
@@ -206,17 +206,10 @@ async function handleImageUpload() {
     }
 }
 
-
-
-
 // Event Listeners
 userInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') handleSubmit();
 });
-
-
-
-
 
 
 //trigger when user send first input
@@ -261,6 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
