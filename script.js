@@ -1,7 +1,7 @@
 //ading img diagonis system
 /**
  * AgriCare Assistant - Frontend Logic
- * Version: 2.0 (High Precision)--
+ * Version: 2.0 (High Precision)---
  */
 
 // DOM Elements
