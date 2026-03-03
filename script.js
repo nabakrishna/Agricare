@@ -212,6 +212,7 @@ userInput.addEventListener('keypress', (e) => {
 });
 
 
+
 //trigger when user send first input
 document.addEventListener('DOMContentLoaded', function() {
     const chatWelcome = document.querySelector('.chat-welcome');
@@ -254,6 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
