@@ -129,7 +129,7 @@ http://127.0.0.1:5000
 * **Image Recognition** — working with plant.in api for this
 * **Voice Support** — Add Speech-to-Text for farmer accessibility.(not now)
 * **Local Dialect Support** — Hindi/Regional languages via Google Translate API.
-* **Minimal Conversation**
+* **Minimal Conversation** 
 
 ## 👨‍💻 Author
 
