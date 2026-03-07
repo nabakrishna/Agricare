@@ -113,7 +113,7 @@ function showTyping() {
 }
 
 /**
- * Main Logic: Sends user text to the Python backend
+ * Main Logic: Sends user text to the Python backend            
  */
 async function handleSubmit() {
     const text = userInput.value.trim();
@@ -159,6 +159,26 @@ async function handleSubmit() {
     }
 }
 
+
+
+// //new fucntion              --- recurssive a fn to fecth the ans from the backend that come from the img anaylisis ans---------------------
+// async fucntion handlimgupload(){
+//     const file = imageUpload.files[0] // fecth the the ans again in this backend for the proper format ans that come from the img anaylysis ans the api ones
+//     if(!file){
+//         alert('alerting for the second backend answerinf');
+//         return;
+//     }
+//     addMessage('<i class="fas fa-image"></i> Analyzing photo: <strong>${file.name}</strong>', true);
+//     const typingElemnt = showTyping();
+
+//     const formatData = new FormData();
+//     formData.append('image', file);
+//     try{
+//         const response = awaait fetch)'http://localhost:500/api/analyze
+//     }
+//--------------------------------------------------------------------------
+
+    
 //new upadted img handler code not added the preview
 
 async function handleImageUpload() {
@@ -255,6 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
