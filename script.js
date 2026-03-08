@@ -9,7 +9,6 @@ const chatbox = document.getElementById('chatbox');
 const userInput = document.getElementById('user-input');
 const imageUpload = document.getElementById('image-upload');
 
-
 /**
  * Adds a message bubble to the chat interface.
  */
@@ -274,6 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
