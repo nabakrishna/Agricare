@@ -160,7 +160,6 @@ async function handleSubmit() {
 }
 
 
-
 // //new fucntion              --- recurssive a fn to fecth the ans from the backend that come from the img anaylisis ans---------------------
 // async fucntion handlimgupload(){
 //     const file = imageUpload.files[0] // fecth the the ans again in this backend for the proper format ans that come from the img anaylysis ans the api ones
@@ -275,6 +274,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
