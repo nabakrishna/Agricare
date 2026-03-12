@@ -4,8 +4,6 @@
  * Version: 2.0 (High Precision)---
  */
 
-
-
 // DOM Elements
 const chatbox = document.getElementById('chatbox');
 const userInput = document.getElementById('user-input');
@@ -275,6 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
