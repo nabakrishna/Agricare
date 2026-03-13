@@ -13,6 +13,7 @@ const imageUpload = document.getElementById('image-upload');
  * Adds a message bubble to the chat interface.
  */
 
+
 function addMessage(content, isUser = false) {
     const messageDiv = document.createElement('div');
     messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
@@ -274,6 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sendBtn.addEventListener('click', hideWelcomeOnFirstMessage);
     }
 });
+
 
 
 
