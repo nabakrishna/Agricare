@@ -67,7 +67,7 @@ cd agricare
 You need Python installed. Run the following command to install the required libraries:
 
 ```bash
-pip install flask flask-cors rapidfuzz
+pip install flask flask-cors rapidfuzz 
 ```
 ### 3. Initialize the Database
 You do not need to create the database manually. The application automatically checks for agricare.db on startup and creates it with the latest schema if missing.
@@ -134,9 +134,6 @@ http://127.0.0.1:5000
 ## 👨‍💻 Author
 
 * **Naba Krishna Hazarika**
-* **Department:** Integrated M.Tech (CSE - Computational and Data Science)
-
-
 
 
 
