@@ -28,9 +28,9 @@
 | :--- | :--- | :--- |
 | **Backend** | Python (Flask) | REST API & Core Logic |
 | **Frontend** | HTML5, CSS3, JS | Responsive Chat Interface |
-| **Database** | SQLite3 | Stores Knowledge Base & User Reports |
+| **Database** | SQLite3,PLpgSQL | Stores Knowledge Base & User Reports |
 | **AI Logic** | RapidFuzz | Fuzzy String Matching & Token Ratios |
-| **Memory** | SessionStorage | Frontend-side context management |
+| **Memory** | -------- | Frontend-side context management |
 
 ---
 
