@@ -14,7 +14,7 @@ from markupsafe import escape
 # SECURITY: Load API key from environment variable, NOT hardcoded.
 # Set it by running: export PLANT_ID_API_KEY="your_key_here"
 # ============================================================
-PLANT_ID_API_KEY = "ud79K3J9Dz61AbJravZQaJgHrKLlbwU4b8joZd0JPuSNuI849s"
+PLANT_ID_API_KEY = "u###########################################"
 PLANT_ID_ENDPOINT = "https://plant.id/api/v3/identification"
 
 app = Flask(__name__)
