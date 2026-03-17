@@ -3,7 +3,7 @@
 > **AI-Powered Plant Disease Diagnosis & Remedy System**
 > *Helping farmers identify crop diseases through natural language conversations.*
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue) ![Python](https://img.shields.io/badge/Python-3.8+-yellow) ![Flask](https://img.shields.io/badge/Backend-Flask-green) ![Status](https://img.shields.io/badge/Status-Beta-orange) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Python](https://img.shields.io/badge/Python-3.8+-yellow) ![Flask](https://img.shields.io/badge/Backend-Flask-green) ![Status](https://img.shields.io/badge/Status-Beta-orange) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📖 Overview
 
@@ -128,7 +128,7 @@ http://127.0.0.1:5000
 
 * **Image Recognition** — working with plant.in api for this
 * **Voice Support** — Add Speech-to-Text for farmer accessibility.(not now)
-* **Local Dialect Support** — Hindi/Regional languages via Google Translate API.
+* **Local Dialect Support** — 
 * **Minimal Conversation** 
 
 ## 👨‍💻 Author
